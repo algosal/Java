@@ -8,8 +8,7 @@ public class variables {
 //must have a value otherwise will give java.lang.Error exception
 		a=1;
 		
-		System.out.println(a);
-		
+		System.out.println(a);	
 	}
 
 }
