@@ -1,5 +1,9 @@
 package us.salman.java;
 
+import java.awt.geom.Point2D;
+
+import java.awt.Point;
+
 public class Arrays {
 	
 	protected int [] intArray = new int[5];
@@ -21,10 +25,17 @@ public class Arrays {
 		strArray[3] = "4D";
 		strArray[4] = "5E";
 		}
-	
-	
+
 	
 	public void intArrPrt() {
+		
+		Point p1 = new Point(0,1);
+		Point p2 = new Point(1,3);
+
+			System.out.println((p2.getY() - p1.getY())/(p2.getX() - p1.getX()));
+			
+
+				
 		for (int i : intArray) {
 			System.out.println(i);		
 			}
