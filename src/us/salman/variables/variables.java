@@ -9,6 +9,7 @@ public class variables {
 		a=1;
 		
 		System.out.println(a);
+		
 	}
 
 }
