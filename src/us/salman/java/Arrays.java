@@ -12,43 +12,19 @@ public class Arrays {
 		intArray[4] = 5;
 		}
 	
-<<<<<<< HEAD
-	
-	
-=======
->>>>>>> a56eb633e2059b6c2a71ffe9ccd91b490a39173e
-	private String [] strArray = new String[5];
+	private String [] strArray = new String[2];
 	{
-		strArray[0] = "1A";
-		strArray[1] = "2B";
-		strArray[2] = "3C";
-		strArray[3] = "4D";
-		strArray[4] = "5E";
-		}
-<<<<<<< HEAD
-
+	strArray[0] = "Hello";
+	strArray[1] = "World"; 
+	}
+	
+	
 	
 	public void intArrPrt() {
-		
-		Point p1 = new Point(0,1);
-		Point p2 = new Point(1,3);
-
-			System.out.println((p2.getY() - p1.getY())/(p2.getX() - p1.getX()));
-			
-
 				
 		for (int i : intArray) {
 			System.out.println(i);		
 			}
-=======
-	
-	
-	
-	public void intArrPrt() {
-		for (int i : intArray) {
-			System.out.println(i);			
-		}
->>>>>>> a56eb633e2059b6c2a71ffe9ccd91b490a39173e
 	}
 	
 	public void strArrPrt() {
