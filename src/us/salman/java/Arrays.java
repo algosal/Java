@@ -1,18 +1,9 @@
 package us.salman.java;
 
-<<<<<<< HEAD
-import java.awt.geom.Point2D;
 
-import java.awt.Point;
-
-public class Arrays {
-	
-	protected int [] intArray = new int[5];
-=======
 public class Arrays {
 	
 	private int [] intArray = new int[5];
->>>>>>> a56eb633e2059b6c2a71ffe9ccd91b490a39173e
 	{
 		intArray[0] = 1;
 		intArray[1] = 2;
