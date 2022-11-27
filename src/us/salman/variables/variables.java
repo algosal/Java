@@ -17,7 +17,7 @@ public class variables {
 		System.out.println(a);
 		
 		//32 bytes in memory
-		//8 digit precision
+		//7 decimals precision
 		float f = 1;
 		System.out.println(f);
 		
