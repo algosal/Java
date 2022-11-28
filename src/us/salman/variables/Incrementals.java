@@ -53,7 +53,6 @@ public class Incrementals {
 		 * */
 	    
 			System.out.println("The Incremental behavior outside the for loop");
-		 
 			int a=3;
 		    a=a++;
 		    System.out.println("Post-Increment a: " +a);
