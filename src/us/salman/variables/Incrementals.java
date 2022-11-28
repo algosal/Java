@@ -51,8 +51,10 @@ public class Incrementals {
 		 *  post-decrement operators, while the pre-increment and 
 		 *  pre-decrement operators works normal in this case.
 		 * */
+	    
+			System.out.println(:"The Incremental behavior outside the for loop");
 		 
-		   int a=3;
+			int a=3;
 		    a=a++;
 		    System.out.println("Post-Increment a: " +a);
 		 
@@ -64,6 +66,7 @@ public class Incrementals {
 		 
 		    a=--a;
 		    System.out.println("Pre-Decrement a: "+a );
+		    
 
 	}
 }
