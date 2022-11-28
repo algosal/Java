@@ -52,7 +52,7 @@ public class Incrementals {
 		 *  pre-decrement operators works normal in this case.
 		 * */
 	    
-			System.out.println(:"The Incremental behavior outside the for loop");
+			System.out.println("The Incremental behavior outside the for loop");
 		 
 			int a=3;
 		    a=a++;
