@@ -14,6 +14,8 @@ public class SumOfDigits {
 
 		}
 		System.out.println(r);
+		char c =002;
+		System.err.println(c);
 	}
 
 }
