@@ -6,6 +6,24 @@ public class Car {
 	private String driver;
 	private int speed;
 	
+	
+	
+	public Car() {
+		this.door = "closed";
+		this.engine = "start";
+		this.driver = "driver";
+		this.speed = 10;
+	}
+	
+	
+	public Car(String door, String engine, String driver, int speed) {
+		this.door = door;
+		this.engine = engine;
+		this.driver = driver;
+		this.speed = speed;
+	}
+
+
 	public String getDoor() {
 		return door;
 	}
