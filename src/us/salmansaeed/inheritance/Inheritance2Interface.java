@@ -5,6 +5,6 @@ public interface Inheritance2Interface {
 	
 	default void myMethod()
 	{
-		System.out.println("functional interface");
+		System.out.println("functional interface myMethod from Interface 2");
 	}
 }
