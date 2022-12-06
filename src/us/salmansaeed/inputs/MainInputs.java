@@ -8,7 +8,7 @@ public class MainInputs {
 		System.out.println("Please Enter your Name? ");
 		Scanner sc = new Scanner(System.in);
 		String name = sc.nextLine();
-		while(!name.matches("[a-zA-Z]+")){
+		while(!name.matches("[a-z A-Z]+")){
 		    System.out.println("Please enter a valid name!");
 		    name = sc.nextLine();
 		}
