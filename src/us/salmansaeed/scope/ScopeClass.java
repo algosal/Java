@@ -13,7 +13,7 @@ public class ScopeClass {
                 }
                 //End of inner block
          
-                //Compile time Error
+                //Compile time Error 
                 //   number2 = 2;
         }
 }
