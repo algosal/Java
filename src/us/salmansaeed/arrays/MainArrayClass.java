@@ -7,9 +7,6 @@ public class MainArrayClass {
 			
 			for(int i = 0; i < ac.arrayVar.length; i++)
 				ac.arrayVar[i] = i;
-			for (int s: ac.arrayVar) {
-				
-			}
 			for (int s : ac.arrayVar) {
 				System.out.println(s);
 			}
