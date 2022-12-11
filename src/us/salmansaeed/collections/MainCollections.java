@@ -86,8 +86,7 @@ public class MainCollections {
 	    		+ "Remeber Iterators are in Two Classes");
 	    while(it.hasNext()) {
 	      System.out.println(it.next());
-	    }	 
-	    System.out.println("Salman Git Test");
+	    }
 	}
 
 }
