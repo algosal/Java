@@ -1,11 +1,8 @@
 package us.salmansaeed.collections;
 
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.*;
 import java.util.Collections;
 import java.util.List;
-import java.util.Vector;
-
 public class MainCollections {
 
 	public static void main(String[] args) {
@@ -21,7 +18,11 @@ public class MainCollections {
 		/*System.out.println(aLC.aL);
 		System.out.println(aLC.aL.get( aLC.aL.indexOf("Salman")));
 		aLC.aL.remove("Salman3"); */
+		
+		
 		Collections.sort(aLC.aL);
+		
+		
 		System.out.println(aLC.aL.contains("Sal"));
 		System.out.println(aLC.aL.iterator().next());
 		
@@ -56,10 +57,15 @@ public class MainCollections {
         ArrayList<Integer> integer_list = new ArrayList<>();
         integer_list.add(1);
         integer_list.add(2);
+        Collections.reverse(integer_list);
         mC.readList(integer_list);
         
-				
-	}
+        System.out.println("***************");
+        mC.iterateList(sec_list);
+        }
+	
+	
+
 	
     
 	
@@ -67,6 +73,20 @@ public class MainCollections {
 		for (T t : l) {
 			System.out.println(t);
 		}
+	}
+	
+	
+	public <T> void iterateList(List<T> l) {
+
+		// Get the iterator
+	    Iterator<T> it =  l.iterator();
+	    
+	    // Loop through a collection
+	    System.out.println("While Loop. "
+	    		+ "Remeber Iterators are in Two Classes");
+	    while(it.hasNext()) {
+	      System.out.println(it.next());
+	    }	 
 	}
 
 }

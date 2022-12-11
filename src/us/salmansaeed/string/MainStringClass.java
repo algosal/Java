@@ -40,6 +40,10 @@ public class MainStringClass {
 		//System.out.println(t.format(t, ));
 		System.out.printf("The String object %s is at hash code %s%n", s, "22");
 
+		StringReversal sR = new StringReversal("This is Salman");
+		String ss = sR.getSb().toString(); 
+		System.out.println(ss);
+		System.out.println(sR.getSb().reverse());
 		
 	}
 }
