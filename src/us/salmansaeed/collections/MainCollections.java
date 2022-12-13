@@ -37,7 +37,7 @@ public class MainCollections {
         ArrayList<String> sec_list = new ArrayList<>();
           
         // using Clone() Method
-        sec_list = (ArrayList)aLC.aL.clone();
+        //sec_list = (ArrayList)aLC.aL.clone();
         System.out.println(aLC.aL == (sec_list));
         System.out.println(aLC.aL.equals(sec_list));
         aLC.aL.add("Original_List OBJ");
@@ -62,7 +62,12 @@ public class MainCollections {
         
         System.out.println("***************");
         mC.iterateList(sec_list);
-        }
+    
+        Generics<Number> gN = new Generics<>();
+    	System.out.println(gN.myNFunc(10));
+    	
+	
+	}
 	
 	
 
@@ -88,5 +93,8 @@ public class MainCollections {
 	      System.out.println(it.next());
 	    }
 	}
+	
+	
+	
 
 }
